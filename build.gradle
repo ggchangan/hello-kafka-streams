@@ -31,6 +31,8 @@ dependencies {
     compile group: 'org.schwering', name: 'irclib', version: '1.10'
     compile group: 'org.slf4j', name:'slf4j-api', version: slf4jVersion
     compile group: 'org.slf4j', name:'slf4j-log4j12', version: slf4jVersion
+
+    compile group: 'io.confluent', name: 'kafka-connect-elasticsearch', version: '4.0.0-SNAPSHOT'
 }
 
 jar {
