@@ -11,3 +11,4 @@ conf/application.yml
 genlibs
 *.ipr
 *.iws
+out
